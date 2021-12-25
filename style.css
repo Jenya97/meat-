@@ -1,0 +1,349 @@
+@font-face {
+    font-family:regArial;
+    src: url(font/ofont.ru_Arial.ttf);
+}
+@font-face {
+    font-family: gothic;
+    src: url(font/Century\ Gothic.ttf);
+}
+body{
+    font-family: regArial;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Background.jpg) ;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.navigator_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+.navigator_header ul{
+    display: flex;
+    padding-top: 30px;
+    gap: 15px;
+}
+.navigator_header ul li a{
+    color: #FFFFFF;
+    font-size: 29px;
+    letter-spacing: 1px;
+    
+}
+.navigator_header ul li button{
+ border: none;
+ background: none;
+ outline: none;
+}
+.social_media i{
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.logo_part{
+    display: flex;
+    flex-direction: column;
+}
+.dark_bg{
+    background: url(img/unnamed.jpg);
+    width: 87%;
+    border-radius: 15px;
+    padding-top: 20px;
+    margin: 40px auto;
+    position: relative;
+}
+.search{
+    width: 90%;
+    height: 50px;
+    background: white;
+    border-radius: 35px;
+    position: relative;
+    left: 38px;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search_btn{
+    font-size: 23px;
+    font-weight: bold;
+    background: #FFCC00;
+    border: none;
+    height: inherit;
+    justify-self: self-end;
+    padding: 0 25px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    font-family: gothic;
+}
+.search svg{
+    padding-left: 15px;
+}
+.search input{
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+.first_meat_sec{
+    display: flex;
+    justify-content: space-between;
+    height: 650px;
+}
+.meat_icon{
+    width: 100px;
+    height: 100px;
+}
+.first_meat_sec{
+    width:97%;
+    margin:auto;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    
+}
+.beef{
+   width:50%;
+   background: url(img/meat_bg.jpg);
+   display: flex;
+   justify-content: center;
+   font-family: gothic;
+   align-items: center;
+}
+.maxres{
+    width:50%;
+}
+.maxres img{
+    width:100%;
+    height: 100%;
+}
+.beef h3{
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing:4px;
+    line-height: 40px;
+    font-family: gothic;
+}
+.beef h3 span{
+    display: block;
+    color: #FFCC00;
+    text-align: end;
+    font-family: gothic;
+    font-weight: 600;
+}
+.beef a,.company a{
+    border:2px solid #FFCC00;
+    width: 210px;
+    height: 50px;
+    background: none;
+    border-radius:5px;
+    box-shadow: 0px 0px 5px 0px #FFCC00;
+    font-size: 22px;
+    color: #FFCC00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-family: gothic;
+    font-weight: 700;
+}
+.read_more{
+    margin-top: 30px;
+}
+.beef_meat{
+    width: 250px;
+    height: 215px;
+    position: absolute;
+    bottom: -50px;
+    left: 120px;
+    
+}
+
+.vip_header{
+font-family: 'Kaufmann BT', arial;
+font-size:70px;
+color: #FFFFFF;
+font-weight: 400;
+margin-top:30px;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.company h3{
+    font-size: 30px;
+    color: #FFCC00;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: gothic;
+}
+.company p{
+    margin-top: -10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-family: gothic;
+    margin-bottom: 55px;
+}
+.company p span{
+    color: #FFCC00;
+    margin-right: 4px;
+}
+.best_offer_items {
+    padding-top: 300px;
+   
+}
+.best_offer{
+    display: flex;
+   align-items: center;
+  padding-top: 100px;
+ height: 870px;
+}
+.best_offer_items h2{
+    font-family: gothic;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+.best_offer img{
+    width:300px;
+    height: 300px;
+}
+.product{
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center;
+    height: 800px;
+}
+.product_name{
+    display: flex;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: gothic;
+    letter-spacing: 3px;
+    font-weight: 600;
+    flex-direction: column;
+    justify-content: center;
+}
+.product_name:after{
+content: '';
+display: inline-block;
+width: 100%;
+background: #FFFFFF;
+height: 4px;
+position: relative;
+top: 50px;
+opacity: 0.2;
+margin-bottom: 40px;
+text-align: center;
+}
+
+
+.product_price{
+color: #FFFFFF;
+font-size: 18px;
+opacity: 0.7;
+letter-spacing: 2px;
+width: 100%;
+text-align: center;
+}
+.in_basket{
+    width: 45%;
+    border:2px solid #FFCC00;
+    height: 50px;
+    background: none;
+    border-radius:5px;
+    box-shadow: 0px 0px 5px 0px #FFCC00;
+    font-size: 20px;
+    color: #FFCC00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-family: gothic;
+    font-weight: 700;
+}
+.slick-prev i,.slick-next i{
+color: #FFCC00;
+font-size: 50px;
+}
+
+.vip_header_last{
+    font-family: 'Kaufmann BT', arial;
+    font-size:70px;
+    color: #FFCC00;
+    font-weight: 400;
+    margin-top:-70px;
+    text-align: center;
+    }
+.quality{
+    font-family: gothic;
+   font-size: 25px;
+   color: #FFFFFF;
+   letter-spacing: 4px;
+   font-weight: 600;
+   text-align: center;
+   line-height: 0;
+}
+.contact_information{
+    background-image: url(img/meat_bg.jpg);
+   margin-top: 190px;
+   border-radius: 15px;
+   padding: 25px 25px 0 25px;
+}
+.contact__and__menu{
+    background: hsl(0, 0%, 7%);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+}
+.tel__mail a,.tel__mail p{
+display: block;
+font-family: gothik;
+color: #FFFFFF;
+letter-spacing: 3px;
+font-size: 17px;
+line-height: 28px;
+opacity: 0.9;
+}
+.tel__mail{
+align-self: flex-end;
+}
+.tel__mail p{
+    line-height: 0px;
+}
+.footer__menu li a{
+    font-family: gothic;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.9;
+}
+.footer__menu li a i{
+    margin-right: 10px;
+    font-size: 27px;
+    margin-top: 10px;
+}
