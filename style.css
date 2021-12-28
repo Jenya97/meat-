@@ -13,10 +13,12 @@ body{
     background-image: url(img/Background.jpg) ;
     background-repeat: no-repeat;
   background-size: cover;
+ 
 }
 ul li{
     list-style: none;
 }
+
 a{
     text-decoration: none;
 }
@@ -36,7 +38,9 @@ a{
     padding-top: 50px;
    
 }
-
+.navigator_header div{
+z-index: 2;
+}
 .navigator_header ul{
     display: flex;
     margin-top: 70px;
@@ -360,7 +364,11 @@ align-self: flex-end;
     display:flex;
     margin-top: 35px;
 }
+.enter{
+    display: none;
+}
 .registr button{
+   
     background: none;
     outline: none;
     font-size: 25px;
@@ -402,6 +410,7 @@ align-self: flex-end;
 .first_menu ul{
     padding: 0;
 }
+
 .about_us__header h3{
     text-align: center;
     font-size: 41px;
@@ -433,4 +442,165 @@ align-self: flex-end;
 }
 .clearfix{
     clear: both;
+}
+
+.category__items{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.category__items div button{
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.category_meat__item{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 35px;
+    width: 200px;
+    padding:5px 20px;
+}
+.category_meat__item p{
+    width: 90%;
+    margin: auto;
+     font-size: 29px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.category{
+    width: 80%;
+    margin: auto;
+    display: flex;
+gap: 20px;
+}
+.category_second__item{
+    display:  flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    row-gap: 70px;
+}
+.goods_item{
+    padding: 25px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    height: fit-content;
+}
+.goods_item_content img{
+    width: 200px;
+    height: 200px;
+}
+.goods_item_content{
+    display: flex;
+    gap: 15px;
+}
+.goods_item_content__description{
+    display: flex;
+   flex-direction: column;
+}
+.goods_item_header h3{
+    padding: 5px 20px;
+    background: #FFCC00;
+    width: fit-content;
+    height: fit-content;
+    font-size: 22px;
+    letter-spacing: 2px;
+    border-radius: 35px;
+    margin: 0;
+}
+.goods_item_price{
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.count_input{
+    width: 20px;
+    height: 24px;
+    text-align: center;
+    margin-right: 5px;
+}
+.count_input__label{
+    font-size: 20px;
+
+}
+.goods_in_basket{
+    display: flex;
+    font-size:22px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #FFCC00;
+    border-radius: 35px;
+    border:none;
+    outline: none;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 5px;
+    margin-top: 10px;
+    
+}
+.pagination_first{
+    display: flex;
+    width: 56.5%;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.pagination_first a{
+text-align: center;
+width: 20px;
+height: 23px;
+display: inline-block;
+background: #FFCC00;
+margin-right: 5px;
+padding-top: 5px;
+color: black;
+}
+.pagination_first:hover{
+    background: #FFFFFF; 
+}
+.bottom_part{
+    margin-bottom: 200px;
+}
+.enter_user{
+    background: #FFFFFF;
+    width: 45%;
+    padding:50px 100px;
+    border-radius: 15px;
+   margin: auto;
+}
+.enter_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enter_content_form input{
+display: block;
+margin-bottom: 25px;
+background: #FFFFFF;
+border-radius: 35px;
+box-shadow: 5px 10px 20px 2px grey;
+border: none;
+outline: none;
+font-size: 20px;
+}
+.enter_content_form label{
+    display: flex;
+    font-size: 20px;
+    font-family: gothic;
+    gap: 25px;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+.vip__food__enter__header{
+    font-size: 70px;
+    font-family: Kaufmann BT;
+    text-align: center;
+    margin: 0 0 50px -10px;
+    letter-spacing: 2px;
+}
+.enter_content_form{
+    position: relative;
+    left: -52px;
 }
