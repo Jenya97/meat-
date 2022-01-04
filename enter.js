@@ -29,7 +29,7 @@ $('.enter_system').on('click', function(e){
 });
 $('.enter_user').on('click', function(e){
     e.stopPropagation();
-});
+}); 
 $(document).on('click', function(){
     $(".enter").hide();
     $('main').css({
