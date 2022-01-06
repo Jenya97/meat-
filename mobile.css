@@ -200,4 +200,26 @@ font-size: 30px!important;
    .contact_information{
        margin: 70px auto 0 auto!important;
    }
+   .enter_content div svg,.registr_content div svg{
+       width: 120px!important;
+   }
+   .vip__food__enter__header{
+       font-size: 25px!important;
+   }
+   .enter_user,.registr_user{
+       width: unset!important;
+   }
+   .enter_content_form label{
+       font-size: 10px!important;
+       padding-left: 15px!important;
+       flex-direction: column;
+   }
+   .enter_content_form{
+       left: unset!important;
+   }
+   .reg_btn{
+       margin: auto;
+       float: unset!important;
+       font-size: 15px!important;
+   }
 }
