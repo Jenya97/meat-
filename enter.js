@@ -1,6 +1,7 @@
  function logIn(){
 if($('.enter').is(":hidden")){
     $('.enter').height($('main').height()+200)
+    $('.burger_menu').css('display','none')
     $('.enter').width($('body').width())
     $('.enter').css({
         display:'block',

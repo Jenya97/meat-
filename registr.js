@@ -1,5 +1,6 @@
 function logIn(){
     if($('.registr_field').is(":hidden")){
+        $('.burger_menu').css('display','none')
         $('.registr_field').height($('main').height()+200)
         $('.registr_field').width($('body').width())
         $('.registr_field').css({
@@ -23,6 +24,7 @@ function logIn(){
     
     
     $('.registration_system').on('click', logIn);
+    
     
     $('.registration_system').on('click', function(e){
         e.stopPropagation();

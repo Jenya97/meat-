@@ -1,0 +1,203 @@
+@media screen and (min-width:320px) and (max-width:1024px){
+    @font-face {
+        font-family: gothic;
+        src: url(font/Century\ Gothic.ttf);
+    }
+    .header_part{
+        display: none;
+    }
+    .mobile_header{
+        display: block!important;
+    }
+    .mobile_navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items:baseline;
+    }
+    .meat_logo{
+        width: 60px;
+        height: 30px;
+    }
+    .logo_text{
+        font-size:21px;
+        font-family: 'Kaufmann BT', arial;
+        color: #FFCC00;
+    }
+    .mob_logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .mob_search{
+        width: 90px;
+        background: #FFFFFF;
+        height:fit-content;
+        display: flex;
+        height: 10px;
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    }
+    .mob_search input{
+        width: 90px;
+        height: 10px;
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+        border: none;
+        outline: none;
+    }
+    .search_btn{
+        position: relative;
+        left: -35px;
+        font-size:9px!important;
+        padding: 0px 5px 12px!important;
+    }
+    .best_offer_items img{
+     width: 120px!important;
+     height: 80px!important;
+    }
+    .product_name{
+        font-size: 13px!important;
+    }
+    .in_basket{
+        font-size: 12px!important;
+    }
+    .mobile_header{
+        padding-top: 30px;
+    }
+    .beef_meat{
+        display: none;
+    }
+    .contact__and__menu{
+        flex-direction: column;
+    }
+    .tel__mail a, .tel__mail p{
+        font-size: 9px!important;
+        line-height: 24px!important;
+    }
+    .footer__menu li a{
+        justify-content: flex-start;
+        font-size: 9px!important;
+    }
+    .footer__menu{
+        margin-left: -32px;
+    }
+    .footer__menu li a i{
+        font-size: 18px!important;
+    }
+    .burger_menu{
+        position: absolute;
+    }
+    .burger_btn{
+        border: none;
+        outline: none;
+        background: none;
+        padding: 0;
+    }
+    .burger_btn i{
+        font-size: 18px;
+        color: #FFCC00;
+    }
+    .burger_menu li a{
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-weight: 500;
+    }
+    .burger_menu{
+        z-index: 1;
+        background: #FFCC00;
+        padding: 5px;
+        height: fit-content;
+
+    }
+    .enter_system,.registration_system{
+        background: none;
+        border: none;
+        padding: 0;
+        font-size: 15px;
+        color: #FFFFFF;
+        line-height: 30px;
+        font-weight: 500;
+    }
+    .dark_bg{
+        height: 100px;
+        padding: 0!important;
+        margin: 5px auto!important;
+    }
+    .beef{
+        height: 79px;
+    }
+    .meat_icon{
+        display: none;
+    }
+    
+    .first_meat_sec{
+        height: unset!important;
+    }
+    
+    .beef a, .company a{
+     height: 9px!important;
+     width: 70px!important;
+     font-size: 8px!important;
+     padding: 3px!important;
+    }
+    .beef h3{
+        font-size: 8px!important;
+        line-height: 19px!important;
+    }
+    .company h3{
+    font-size: 15px!important;
+    }
+    .vip_header{
+font-size: 30px!important;
+    }
+    .company p{
+        font-size: 10px!important;
+    } 
+    .best_offer_items {
+        padding-top: 30px!important;
+    }
+    .best_offer_items h2{
+        font-size: 17px!important;
+        color: #FFCC00!important;
+    }
+    .read_more{
+        margin-top: -16px!important;
+    }
+    .best_offer{
+        height: 200px!important;
+
+    }
+    .product_name:after{
+        top: 15px!important;
+        margin-bottom:0px!important;
+    }
+    .in_basket{
+        height: 30px!important;
+        margin-top: 20px!important;
+    }
+    .product_price{
+        font-size: 10px!important;
+    }
+    .product{
+        height: 250px!important;
+    }
+   .vip_header_last{
+       margin-top: 70px!important;
+       font-size: 40px!important;
+   }
+   .slick-prev i, .slick-next i{
+       font-size: 30px!important;
+   }
+   .quality{
+       font-size: 14px!important;
+   }
+   .contact_information{
+       margin: 70px auto 0 auto!important;
+   }
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link href="https://allfont.ru/allfont.css?fonts=kaufmann-bt" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="style.css">
     <title>Meat</title>
 </head>
@@ -52,6 +53,31 @@
           </div>
           </div>
       <section class="container">
+        <div class="mobile_header" style="display: none;">
+       <nav class="mobile_navigation">
+         <div>
+        <button class="burger_btn"><i class="fas fa-bars"></i></button>
+         <ul class="burger_menu" style="display: none;">
+           <li><a href="">Главная</a></li>
+           <li><a href="">Категории</a></li>
+           <li><a href="">Акции</a></li>
+           <li><a href="">О нас</a></li>
+           <li>
+             <button class="enter_system" >Вход /</button>
+             <button class="registration_system">Регистрация</button>
+           </li>
+         </ul>
+        </div>
+         <div class="mob_logo">
+         <img src="img/meatLogo.png" alt="logo" class="meat_logo">
+         <p class="logo_text">Vip food</p>
+        </div>
+         <div class="mob_search">
+           <input type="text">
+          <button class="search_btn">Поиск</button>
+         </div>
+       </nav>
+        </div>
           <div class="header_part">
           <nav class="navigator_header">
             <div class="first_menu">
@@ -63,11 +89,12 @@
                       </svg>
                       </button></li>
                   <li class="category_menu"><a href="">Категории</a>
-                    <button class="category_menu_btn" type="submit">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14.827" height="14.691" viewBox="0 0 14.827 14.691">
-                        <path id="Shape_5" data-name="Shape 5" d="M431.508,142.436l6.913,6.913,6.913-6.913V148.3l-6.913,6.913-6.913-6.913Z" transform="translate(-431.008 -141.229)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
-                      </svg>
-                      </button></li>
+                   </li>
+                   <button class="category_menu_btn" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14.827" height="14.691" viewBox="0 0 14.827 14.691">
+                    <path id="Shape_5" data-name="Shape 5" d="M431.508,142.436l6.913,6.913,6.913-6.913V148.3l-6.913,6.913-6.913-6.913Z" transform="translate(-431.008 -141.229)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+                  </svg>
+                  </button>
   
               </ul>
               <div class="submenu" style='display: none;'>
@@ -75,7 +102,7 @@
                 <li><a href="">menu 1</a></li>
                 <li><a href="">menu 2</a>
                  <button class="right_menu"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                  width="30" height="30"
+                  width="17" height="17"
                   viewBox="0 0 172 172"
                   style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M68.8,154.8h-11.46667c-2.21307,0 -4.2312,-1.27853 -5.18293,-3.27947c-0.95173,-2.00093 -0.65933,-4.3688 0.74533,-6.0888l48.63013,-59.43173l-48.63013,-59.43747c-1.40467,-1.71427 -1.69133,-4.08213 -0.74533,-6.0888c0.946,-2.00667 2.96987,-3.27373 5.18293,-3.27373h11.46667c1.72,0 3.34827,0.774 4.4376,2.10413l51.6,63.06667c1.72573,2.1156 1.72573,5.14853 0,7.26413l-51.6,63.06667c-1.08933,1.3244 -2.7176,2.0984 -4.4376,2.0984z"></path></g></g></svg></button>
                 </li>

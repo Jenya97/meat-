@@ -9,10 +9,15 @@ function closeMenu(e) {
     e.preventDefault()
     if(submenu.style.display==='none'){
         submenu.style.display='flex';
+        
     }else{
         submenu.style.display='none';
+        
     }
 }
 
 menu_item.addEventListener('click',closeMenu)
 menu_btn.addEventListener('click',closeMenu)
+$('.burger_btn').on('click',()=>{
+    $('.burger_menu').toggle()
+})
