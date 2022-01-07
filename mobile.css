@@ -201,25 +201,105 @@ font-size: 30px!important;
        margin: 70px auto 0 auto!important;
    }
    .enter_content div svg,.registr_content div svg{
-       width: 120px!important;
+       width: 55px!important;
+       height: 35px!important;
+      
    }
    .vip__food__enter__header{
        font-size: 25px!important;
    }
-   .enter_user,.registr_user{
+   .registr_user{
        width: unset!important;
+       height: 140px;
+       padding:2px 100px 80px!important;
+   }
+   .enter_user{
+    width: unset!important;
+    height: 140px;
+    padding:2px 100px 20px!important;
+}
+   .vip__food__enter__header{
+       font-size: 12px!important;
+       margin: 0 0 2px -10px!important;
    }
    .enter_content_form label{
        font-size: 10px!important;
        padding-left: 15px!important;
-       flex-direction: column;
+       justify-content: space-around;
+       height: 25px;
+   }
+   .enter_content_form label:first-child{
+    margin-top: 12px;
+    
+   }
+   .enter_content_form input{
+    width: 150px;
+    height: 10px;
+    font-size: 13px!important;
    }
    .enter_content_form{
        left: unset!important;
    }
    .reg_btn{
-       margin: auto;
+       margin:5px auto;
        float: unset!important;
-       font-size: 15px!important;
+       font-size: 12px!important;
+       height: 20px!important;
+   }
+   .meat_food_img{
+       width: 60px!important;
+       height: 60px!important;
+   }
+   .about_us__header h2{
+   font-size: 15px!important;
+   }
+   .about_us__header h3{
+       font-size: 21px!important;
+   }
+   .company__description_first p{
+       font-size: 11px!important;
+   }
+   .company__content{
+       padding: 5px!important;
+   }
+   .category_meat__item {
+       width: 90px!important;
+   }
+   .category_meat__item p{
+       font-size: 9px!important;
+   }
+   .category{
+       flex-direction: column;
+   }
+   .goods_item{
+       width: 100%;
+   }
+   .goods_in_basket {
+       font-size: 11px!important;
+       padding: 3px 15px!important;
+       align-items: center;
+   }
+   .pagination_first{
+       display: none!important;
+   }
+   .category{
+       margin: unset!important;
+   }
+   .goods_item_content img {
+       width: 70px!important;
+       height: 70px!important;
+   }
+   .goods_item_price{
+       font-size: 10px!important;
+   }
+   .count_input {
+    width: 13px!important;
+    height: 15px!important;
+   }
+   .count_input__label {
+    font-size: 11px!important;
+}
+   .goods_item_header h3{
+       font-size: 11px!important;
    }
 }

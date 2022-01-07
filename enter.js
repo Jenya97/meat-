@@ -1,5 +1,11 @@
  function logIn(){
 if($('.enter').is(":hidden")){
+    if($('body').width()<1025){
+        $('body').css({
+            overflow:'hidden'
+        })
+    }
+    
     $('.enter').height($('main').height()+200)
     $('.burger_menu').css('display','none')
     $('.enter').width($('body').width())
@@ -38,6 +44,9 @@ $(document).on('click', function(){
             })
             $('footer').css({
                 filter: "blur(0px)",
+            })
+            $('body').css({
+                overflow:'unset'
             })
 });
 

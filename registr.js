@@ -1,5 +1,10 @@
 function logIn(){
     if($('.registr_field').is(":hidden")){
+        if($('body').width()<1025){
+            $('body').css({
+                overflow:'hidden'
+            })
+        }
         $('.burger_menu').css('display','none')
         $('.registr_field').height($('main').height()+200)
         $('.registr_field').width($('body').width())
@@ -39,6 +44,9 @@ function logIn(){
                 })
                 $('footer').css({
                     filter: "blur(0px)",
+                })
+                $('body').css({
+                    overflow:'unset'
                 })
     });
     
