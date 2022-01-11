@@ -1,0 +1,225 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media screen  and (min-width:1604px) and (max-width:1800px){
+    .first_meat_sec{
+        height: 550px!important;
+    }
+    .best_offer img {
+        width: 250px!important;
+        height: 280px!important;
+    }
+    .beef_meat {
+        width: 203px!important;
+        height: 185px!important;
+}
+}
+@media screen and (min-width:1540px) and (max-width:1603px){
+    .navigator_header ul li a{
+        font-size: 26px!important;
+    }
+    .registr button{
+        font-size: 24px!important;
+    }
+    .first_meat_sec{
+        height: 490px!important;
+    }
+    .best_offer img {
+        width: 225px!important;
+        height: 270px!important;
+    }
+    .beef_meat {
+        width: 181px!important;
+        height: 155px!important;
+    }
+.beef h3 {
+    font-size: 28px!important;
+}
+.beef a, .company a{
+    font-size: 20px!important;
+    padding: unset!important;
+}
+}
+@media screen and (min-width:1457px) and (max-width:1539px){
+    .navigator_header ul li a{
+        font-size: 22px!important;
+    }
+    .registr button{
+        font-size: 22px!important;
+    }
+    .search{
+        height: 40px!important;
+    }
+    .first_meat_sec{
+        height: 490px!important;
+    }
+    .best_offer img {
+        width: 205px!important;
+        height: 230px!important;
+    }
+    .beef_meat {
+        width: 181px!important;
+        height: 155px!important;
+    }
+.beef h3 {
+    font-size: 28px!important;
+}
+.beef a, .company a{
+    font-size: 20px!important;
+    padding: unset!important;
+}
+}
+@media screen and (min-width:1285px) and (max-width:1456px){
+    .navigator_header ul li a{
+        font-size: 19px!important;
+    }
+    .registr button{
+        font-size: 19px!important;
+    }
+    .search{
+        height: 37px!important;
+    }
+    .logo_part{
+        width: 200px!important;
+
+    }
+    .logo_name{
+        font-size: 55px!important;
+    }
+    .registr {
+      
+        margin-top: 47px!important;
+    }
+    .first_meat_sec{
+        height: 450px!important;
+    }
+    .best_offer img {
+        width: 200px!important;
+        height: 210px!important;
+    }
+    .beef_meat {
+        width: 181px!important;
+        height: 155px!important;
+    }
+.beef h3 {
+    font-size: 28px!important;
+}
+.beef a, .company a{
+    font-size: 20px!important;
+    padding: unset!important;
+}
+}
+@media screen and (min-width:1286px) and (max-width:1456px){
+ 
+    .navigator_header ul li a{
+        font-size: 22px!important;
+    }
+    .registr button{
+        font-size: 22px!important;
+    }
+    .search{
+        height: 40px!important;
+    }
+    .first_meat_sec{
+        height: 490px!important;
+    }
+    .best_offer img {
+        width: 205px!important;
+        height: 230px!important;
+    }
+    .beef_meat {
+        width: 181px!important;
+        height: 155px!important;
+    }
+.beef h3 {
+    font-size: 28px!important;
+}
+.beef a, .company a{
+    font-size: 20px!important;
+    padding: unset!important;
+}
+}
+@media screen and (min-width:1025px) and (max-width:1285px){
+    .navigator_header ul li a{
+        font-size: 16px!important;
+    }
+    .navigator_header svg{
+        width: 12px!important;
+        height: 12px!important;
+    }
+
+    .registr button{
+        font-size: 16px!important;
+    }
+    .search{
+        height: 30px!important;
+    }
+    .logo_part{
+        width: 150px!important;
+        margin-top: 40px;
+    }
+    .navigator_header ul li button,.category_menu_btn{
+    margin-left: -6px;
+    }
+    .logo_part img{
+        width: 140px;
+    }
+    .navigator_header ul{
+        gap: 14px!important;
+    }
+    .search_btn {
+        font-size: 16px!important;
+    }
+    .logo_name{
+        font-size: 40px!important;
+    }
+    .vip_header{
+        font-size:65px!important;
+    }
+    .company p{
+        font-size: 15px!important;
+    }
+    .registr {
+      
+        margin-top: 47px!important;
+    }
+    .search_btn{
+        padding: 0 10px!important;
+    }
+    .first_meat_sec{
+        height: 350px!important;
+    }
+    .best_offer img {
+        width: 160px!important;
+        height: 160px!important;
+    }
+    .beef_meat {
+        width: 121px!important;
+        height: 135px!important;
+        left: 50px!important;
+    }
+    .product_name{
+        font-size: 15px!important;
+    }
+    .product{
+        height: 650px!important;
+    }
+.beef h3 {
+    font-size:15px!important;
+    text-align: end;
+    line-height: 25px!important;
+}
+.beef a, .company a{
+    font-size: 15px!important;
+    padding: unset!important;
+    height: 30px!important;
+    width: 155px!important;
+}
+.social_media i{
+    font-size: 20px!important;
+}
+}

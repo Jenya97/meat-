@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family:regArial;
     src: url(font/ofont.ru_Arial.ttf);
@@ -33,9 +40,15 @@ a{
    
 }
 .navigator_header{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     padding-top: 50px;
    
 }
@@ -43,6 +56,8 @@ a{
 z-index: 2;
 }
 .navigator_header ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 70px;
     gap: 15px;
@@ -65,8 +80,13 @@ z-index: 2;
     margin-left: 15px;
 }
 .logo_part{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .dark_bg{
     background: url(img/unnamed.jpg);
@@ -84,9 +104,15 @@ z-index: 2;
     position: relative;
     left: 38px;
     top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .search_btn{
     font-size: 23px;
@@ -94,7 +120,8 @@ z-index: 2;
     background: #FFCC00;
     border: none;
     height: inherit;
-    justify-self: self-end;
+    -ms-grid-column-align: self-end;
+        justify-self: self-end;
     padding: 0 25px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
@@ -109,8 +136,12 @@ z-index: 2;
     font-size: 17px;
 }
 .first_meat_sec{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 650px;
 }
 .meat_icon{
@@ -127,10 +158,16 @@ z-index: 2;
 .beef{
    width:50%;
    background: url(img/meat_bg.jpg);
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   justify-content: center;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
    font-family: gothic;
-   align-items: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
 }
 .maxres{
     width:50%;
@@ -161,12 +198,19 @@ z-index: 2;
     height: 50px;
     background: none;
     border-radius:5px;
-    box-shadow: 0px 0px 5px 0px #FFCC00;
+    -webkit-box-shadow: 0px 0px 5px 0px #FFCC00;
+            box-shadow: 0px 0px 5px 0px #FFCC00;
     font-size: 22px;
     color: #FFCC00;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 5px;
     font-family: gothic;
     font-weight: 700;
@@ -191,10 +235,19 @@ font-weight: 400;
 margin-top:30px;
 }
 .company{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     
 }
 .company h3{
@@ -223,8 +276,12 @@ margin-top:30px;
    
 }
 .best_offer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-   align-items: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
   padding-top: 100px;
  height: 870px;
 }
@@ -242,12 +299,21 @@ margin-top:30px;
     height: 300px;
 }
 .product{
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
     display: flex!important;
-    flex-direction: column!important;
-    align-items: center;
+    -webkit-box-orient: vertical!important;
+    -webkit-box-direction: normal!important;
+        -ms-flex-direction: column!important;
+            flex-direction: column!important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 800px;
 }
 .product_name{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 24px;
     text-transform: uppercase;
@@ -255,8 +321,13 @@ margin-top:30px;
     font-family: gothic;
     letter-spacing: 3px;
     font-weight: 600;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .product_name:after{
 content: '';
@@ -286,12 +357,19 @@ text-align: center;
     height: 50px;
     background: none;
     border-radius:5px;
-    box-shadow: 0px 0px 5px 0px #FFCC00;
+    -webkit-box-shadow: 0px 0px 5px 0px #FFCC00;
+            box-shadow: 0px 0px 5px 0px #FFCC00;
     font-size: 20px;
     color: #FFCC00;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 5px;
     font-family: gothic;
     font-weight: 700;
@@ -300,7 +378,12 @@ text-align: center;
 color: #FFCC00;
 font-size: 50px;
 }
-
+.logo_name{
+    color: #FFCC00;
+font-size:70px;
+font-family: 'Kaufmann BT', arial;
+margin: 15px auto;
+}
 .vip_header_last{
     font-family: 'Kaufmann BT', arial;
     font-size:70px;
@@ -328,8 +411,12 @@ font-size: 50px;
 }
 .contact__and__menu{
     background: hsl(0, 0%, 7%);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 20px;
     border-radius: 15px;
 }
@@ -343,7 +430,8 @@ line-height: 28px;
 opacity: 0.9;
 }
 .tel__mail{
-align-self: flex-end;
+-ms-flex-item-align: end;
+    align-self: flex-end;
 }
 .tel__mail p{
     line-height: 0px;
@@ -362,6 +450,8 @@ align-self: flex-end;
     margin-top: 10px;
 }
 .registr{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     margin-top: 35px;
 }
@@ -436,8 +526,12 @@ align-self: flex-end;
     margin-right: 15px;
 }
 .company__description_first{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   
 }
 .company__items div{
@@ -451,8 +545,13 @@ align-self: flex-end;
 }
 
 .category__items{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     row-gap: 15px;
 }
 .category__items div button{
@@ -462,6 +561,8 @@ align-self: flex-end;
 }
 
 .category_meat__item{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background: #FFFFFF;
     border-radius: 35px;
@@ -478,12 +579,17 @@ align-self: flex-end;
 .category{
     width: 80%;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 gap: 20px;
 }
 .category_second__item{
+    display:  -webkit-box;
+    display:  -ms-flexbox;
     display:  flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 70px;
     row-gap: 70px;
 }
@@ -491,6 +597,8 @@ gap: 20px;
     padding: 25px;
     background: #FFFFFF;
     border-radius: 25px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 .goods_item_content img{
@@ -498,17 +606,28 @@ gap: 20px;
     height: 200px;
 }
 .goods_item_content{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 15px;
 }
 .goods_item_content__description{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-   flex-direction: column;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
 }
 .goods_item_header h3{
     padding: 5px 20px;
     background: #FFCC00;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     font-size: 22px;
     letter-spacing: 2px;
@@ -531,6 +650,8 @@ gap: 20px;
 
 }
 .goods_in_basket{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size:22px;
     letter-spacing: 1px;
@@ -540,16 +661,22 @@ gap: 20px;
     border-radius: 35px;
     border:none;
     outline: none;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 10px 20px;
     gap: 5px;
     margin-top: 10px;
     
 }
 .pagination_first{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 56.5%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 70px;
     margin-bottom: 20px;
 }
@@ -577,26 +704,38 @@ color: black;
    margin: auto;
 }
 .enter_content,.registr_content{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .enter_content_form input{
 display: block;
 margin-bottom: 25px;
 background: #FFFFFF;
 border-radius: 35px;
-box-shadow: 5px 10px 20px 2px grey;
+-webkit-box-shadow: 5px 10px 20px 2px grey;
+        box-shadow: 5px 10px 20px 2px grey;
 border: none;
 outline: none;
 font-size: 20px;
 }
 .enter_content_form label{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 20px;
     font-family: gothic;
     gap: 25px;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     letter-spacing: 1px;
 }
 .vip__food__enter__header{
@@ -613,9 +752,15 @@ font-size: 20px;
 .reg_btn{
     width:52%;
     border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: green;
     font-size: 25px;
     height: 40px;
@@ -625,8 +770,13 @@ font-size: 20px;
     float: right;
 }
 .submenu_item{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
    z-index: 10;
    padding: 20px!important;
    background: #dab10d;
@@ -636,12 +786,19 @@ font-size: 20px;
     font-size: 25px!important;
 }
 .second_submenu{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 20px!important;
     position: relative!important;
     top: 62px;
     background: #dab10d;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     margin-top: unset!important;
 }

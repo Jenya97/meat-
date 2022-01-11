@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @media screen and (min-width:320px) and (max-width:1024px){
     @font-face {
         font-family: gothic;
@@ -10,9 +17,15 @@
         display: block!important;
     }
     .mobile_navigation{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
-        align-items:baseline;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align:baseline;
+            -ms-flex-align:baseline;
+                align-items:baseline;
     }
     .meat_logo{
         width: 60px;
@@ -24,15 +37,26 @@
         color: #FFCC00;
     }
     .mob_logo{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-left: 40px;
     }
     .mob_search{
         width: 90px;
         background: #FFFFFF;
+        height:-webkit-fit-content;
+        height:-moz-fit-content;
         height:fit-content;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: 10px;
         border-top-left-radius: 35px;
@@ -73,14 +97,19 @@
         display: none;
     }
     .contact__and__menu{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .tel__mail a, .tel__mail p{
         font-size: 9px!important;
         line-height: 24px!important;
     }
     .footer__menu li a{
-        justify-content: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
         font-size: 9px!important;
     }
     .footer__menu{
@@ -112,6 +141,8 @@
         z-index: 1;
         background: #FFCC00;
         padding: 5px;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
 
     }
@@ -225,7 +256,8 @@ font-size: 30px!important;
    .enter_content_form label{
        font-size: 10px!important;
        padding-left: 15px!important;
-       justify-content: space-around;
+       -ms-flex-pack: distribute;
+           justify-content: space-around;
        height: 25px;
    }
    .enter_content_form label:first-child{
@@ -269,7 +301,10 @@ font-size: 30px!important;
        font-size: 9px!important;
    }
    .category{
-       flex-direction: column;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
    }
    .goods_item{
        width: 100%;
@@ -277,7 +312,9 @@ font-size: 30px!important;
    .goods_in_basket {
        font-size: 11px!important;
        padding: 3px 15px!important;
-       align-items: center;
+       -webkit-box-align: center;
+           -ms-flex-align: center;
+               align-items: center;
    }
    .pagination_first{
        display: none!important;
