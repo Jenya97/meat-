@@ -156,19 +156,13 @@
         font-weight: 500;
     }
     .dark_bg{
-        height: 100px;
+        max-height: 200px;
         padding: 0!important;
         margin: 5px auto!important;
     }
-    .beef{
-        height: 79px;
-    }
+    
     .meat_icon{
         display: none;
-    }
-    
-    .first_meat_sec{
-        height: unset!important;
     }
     
     .beef a, .company a{
@@ -242,7 +236,7 @@ font-size: 30px!important;
    .registr_user{
        width: unset!important;
        height: 140px;
-       padding:2px 100px 80px!important;
+       padding:2px 100px 90px!important;
    }
    .enter_user{
     width: unset!important;
@@ -279,8 +273,11 @@ font-size: 30px!important;
        height: 20px!important;
    }
    .meat_food_img{
-       width: 60px!important;
-       height: 60px!important;
+     max-width:50%!important;
+     max-height: 350px!important;
+   }
+   .company__description_first p{
+ margin: 0!important;
    }
    .about_us__header h2{
    font-size: 15px!important;
@@ -295,10 +292,14 @@ font-size: 30px!important;
        padding: 5px!important;
    }
    .category_meat__item {
-       width: 90px!important;
+       width: 65px!important;
    }
    .category_meat__item p{
        font-size: 9px!important;
+   }
+   .category_meat__item button svg{
+       width: 7px!important;
+       height: 7px!important;
    }
    .category{
        -webkit-box-orient: vertical;
@@ -309,6 +310,9 @@ font-size: 30px!important;
    .goods_item{
        width: 100%;
    }
+   .bottom_part{
+       top: unset!important;
+   }
    .goods_in_basket {
        font-size: 11px!important;
        padding: 3px 15px!important;
@@ -317,7 +321,9 @@ font-size: 30px!important;
                align-items: center;
    }
    .pagination_first{
-       display: none!important;
+    margin-top: unset!important;
+    position: relative;
+    top: 175px;
    }
    .category{
        margin: unset!important;
@@ -339,4 +345,120 @@ font-size: 30px!important;
    .goods_item_header h3{
        font-size: 11px!important;
    }
+   .contact__and__menu{
+       flex-direction: column-reverse;
+   }
+   .tel__mail{
+       align-self: unset!important;
+   }
+   .first_meat_sec{
+    max-height:150px!important; 
+   padding: 15px 15px!important;
+  }
+  .beef{
+    max-height:200px!important; 
+  }
+  .maxres img {
+    width: 97%!important;
+}
+.category_second__item{
+    grid-template-columns: repeat(1,minmax(50%,90%))!important;
+    margin-top: 40px;
+}
+.category__items{
+    flex-direction: row!important;
+    flex-wrap: wrap!important;
+    column-gap: 10px;
+}
+#mob_pagnation{
+    width: 31%!important;
+}
+}
+
+@media screen and (min-width:490px) and (max-width:600px){
+    .pagination_first{
+        top: 141px!important;
+    }
+}
+@media screen and (min-width:520px) and (max-width:800px){
+    .pagination_first{
+        top: 141px!important;
+    }
+    .goods_item_content{
+        gap: 5px!important;
+    }
+    .goods_item{
+        padding: 25px 20px 25px 10px!important;
+    }
+    .category_second__item{
+        grid-template-columns: repeat(2,minmax(50%,90%))!important;
+        margin-top: 40px;
+        gap: 60px!important;
+    }
+    .goods_item_content img {
+        width: 60px!important;
+        height: 90px!important;
+    }
+    .goods_item_header h3 {
+        font-size: 11px!important;
+    }
+    .goods_in_basket {
+        font-size: 8px!important;
+    }
+    .count_input {
+        width: 9px!important;
+        height: 12px!important;
+    }
+    .goods_item_price{
+        letter-spacing: 1px!important;
+    }
+    .goods_item_header h3{
+        padding: 5px 14px!important;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1024px){
+    .pagination_first{
+        top: 141px!important;
+    }
+    .goods_item_content{
+        gap: 40px!important;
+    }
+    .goods_item{
+        padding: 25px!important;
+    }
+    #mob_pagnation{
+        width: 17%!important;
+    }
+    
+    .category_second__item{
+        grid-template-columns: repeat(2,minmax(50%,90%))!important;
+        margin-top: 40px;
+        gap: 60px!important;
+    }
+    .goods_item_content img {
+        width: 60px!important;
+        height: 90px!important;
+    }
+   
+    .goods_item_header h3 {
+        font-size: 11px!important;
+    }
+    .goods_in_basket {
+        font-size: 8px!important;
+    }
+    .count_input {
+        width: 9px!important;
+        height: 12px!important;
+    }
+    .goods_item_price{
+        letter-spacing: 1px!important;
+    }
+    .goods_item_header h3{
+        padding: 5px 14px!important;
+    }
+}
+@media screen and (min-width:1005px) and (max-width:1024px){
+    .pagination_first {
+        top: 95px!important;
+    }
 }

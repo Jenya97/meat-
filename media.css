@@ -1,10 +1,9 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
 
+@media screen and (max-width:1900px){
+    .pagination_first{
+        width: 59%!important;
+    }
+}
 @media screen  and (min-width:1604px) and (max-width:1800px){
     .first_meat_sec{
         height: 550px!important;
@@ -17,10 +16,35 @@
         width: 203px!important;
         height: 185px!important;
 }
+.goods_item_content img{
+    width: 160px!important;
 }
+.goods_item_header h3{
+    font-size: 20px!important;
+}
+.goods_in_basket{
+    font-size: 18px!important;
+}
+.goods_item_price{
+    font-size: 15px!important;
+}
+.count_input__label{
+    font-size: 17px!important;
+}
+.pagination_first{
+    width: 62%!important;
+}
+.company__description_first{
+    padding-right: 25px!important;
+}
+}
+
 @media screen and (min-width:1540px) and (max-width:1603px){
     .navigator_header ul li a{
         font-size: 26px!important;
+    }
+    .company__description_first{
+        padding-right: 25px!important;
     }
     .registr button{
         font-size: 24px!important;
@@ -43,6 +67,25 @@
     font-size: 20px!important;
     padding: unset!important;
 }
+.goods_item_content img{
+    width: 120px!important;
+    height: 175px!important;
+}
+.goods_item_header h3{
+    font-size: 20px!important;
+}
+.goods_in_basket{
+    font-size: 18px!important;
+}
+.goods_item_price{
+    font-size: 15px!important;
+}
+.count_input__label{
+    font-size: 17px!important;
+}
+.pagination_first{
+    width: 65%!important;
+}
 }
 @media screen and (min-width:1457px) and (max-width:1539px){
     .navigator_header ul li a{
@@ -53,6 +96,9 @@
     }
     .search{
         height: 40px!important;
+    }
+    .company__description_first{
+        padding-right: 25px!important;
     }
     .first_meat_sec{
         height: 490px!important;
@@ -72,6 +118,41 @@
     font-size: 20px!important;
     padding: unset!important;
 }
+.search{
+    width: 85%!important;
+}
+.search  input{
+    width: 95%;
+}
+.search_btn{
+    padding: 0 15px!important;
+    font-size: 15px!important;
+}
+.goods_item_content img{
+    width: 100px!important;
+    height: 160px!important;
+}
+.goods_item_header h3{
+    font-size: 18px!important;
+}
+.goods_in_basket{
+    font-size: 15px!important;
+    padding: 5px 15px!important;
+    align-items: center;
+}
+.category_meat__item p{
+    font-size: 24px!important;
+}
+.pagination_first{
+    width: 67.5% !important;;
+
+}
+.goods_item_price{
+    font-size: 13px!important;
+}
+.count_input__label{
+    font-size: 15px!important;
+}
 }
 @media screen and (min-width:1285px) and (max-width:1456px){
     .navigator_header ul li a{
@@ -82,6 +163,9 @@
     }
     .search{
         height: 37px!important;
+    }
+    .company__description_first{
+        padding-right: 25px!important;
     }
     .logo_part{
         width: 200px!important;
@@ -112,37 +196,49 @@
     font-size: 20px!important;
     padding: unset!important;
 }
+.search{
+    width: 85%!important;
 }
-@media screen and (min-width:1286px) and (max-width:1456px){
- 
-    .navigator_header ul li a{
-        font-size: 22px!important;
-    }
-    .registr button{
-        font-size: 22px!important;
-    }
-    .search{
-        height: 40px!important;
-    }
-    .first_meat_sec{
-        height: 490px!important;
-    }
-    .best_offer img {
-        width: 205px!important;
-        height: 230px!important;
-    }
-    .beef_meat {
-        width: 181px!important;
-        height: 155px!important;
-    }
-.beef h3 {
-    font-size: 28px!important;
+.search  input{
+    width: 90%;
 }
-.beef a, .company a{
-    font-size: 20px!important;
-    padding: unset!important;
+.search_btn{
+    padding: 0 15px!important;
+    font-size: 15px!important;
+}
+.goods_item_content img{
+    width: 90px!important;
+    height: 140px!important;
+}
+.category_meat__item p {
+    font-size: 17px!important;
+}
+.goods_item_header h3{
+    font-size: 16px!important;
+    padding: 5px 7px!important;
+}
+.goods_in_basket{
+    font-size: 12px!important;
+    padding: 5px 15px!important;
+    align-items: center;
+}
+
+.pagination_first{
+    width: 74.5% !important;;
+
+}
+.goods_item_price{
+    font-size: 10px!important;
+}
+.count_input__label{
+    font-size: 12px!important;
+}
+.count_input{
+    width: 15px!important;
+    height: 15px!important;
 }
 }
+
 @media screen and (min-width:1025px) and (max-width:1285px){
     .navigator_header ul li a{
         font-size: 16px!important;
@@ -157,6 +253,9 @@
     }
     .search{
         height: 30px!important;
+    }
+    .company__description_first{
+        padding-right: 25px!important;
     }
     .logo_part{
         width: 150px!important;
@@ -185,7 +284,7 @@
     }
     .registr {
       
-        margin-top: 47px!important;
+        margin-top: 35px!important;
     }
     .search_btn{
         padding: 0 10px!important;
@@ -222,4 +321,81 @@
 .social_media i{
     font-size: 20px!important;
 }
+.search{
+    width: 72%!important;
+}
+.search  input{
+    width: 90%;
+}
+.search_btn{
+    padding: 0 15px!important;
+    font-size: 15px!important;
+}
+.logo_part{
+    margin-left: 40px;
+}
+.goods_item_content img {
+    width: 75px!important;
+    height: 120px!important;
+}
+.category_meat__item p {
+    font-size: 17px!important;
+}
+.goods_item_header h3{
+    font-size: 13px!important;
+    padding: 5px 7px!important;
+}
+.goods_in_basket{
+    font-size: 10px!important;
+    padding: 3px 10px!important;
+    align-items: center;
+}
+
+.pagination_first{
+    width: 65% !important;;
+
+}
+.goods_item_price{
+    font-size: 8px!important;
+}
+.count_input__label{
+    font-size: 10px!important;
+}
+.count_input{
+    width: 15px!important;
+    height: 15px!important;
+}
+.category_meat__item{
+    width: 140px!important;
+}
+.category_meat__item p {
+    font-size: 13px!important;
+}
+.category_meat__item button svg{
+    width: 10px!important;
+    height: 10px!important;
+}
+.pagination_first a{
+    width: 19px!important;
+    height: 19px!important;
+}
+}
+@media screen and (min-width:1024px) and (max-width:1150px){
+    .goods_item_content img {
+        width: 60px!important;
+        height: 90px!important;
+    }
+    .goods_item_header h3 {
+        font-size: 11px!important;
+    }
+    .goods_in_basket {
+        font-size: 8px!important;
+    }
+    .count_input {
+        width: 9px!important;
+        height: 12px!important;
+    }
+    .goods_item_price{
+        letter-spacing: 1px!important;
+    }
 }

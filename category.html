@@ -15,7 +15,8 @@
             padding: 0;
           background: url(img/big_bg.png)!important ;
           background-repeat: no-repeat!important;
-  background-size: cover;
+          background-size: 100% 1600vh!important;
+        height: 100vh !important; 
         }
     </style>
 </head>
@@ -91,14 +92,8 @@
         <nav class="navigator_header">
           <div class="first_menu">
             <ul >
-                <li><a href="">Главная</a>
-                  <button>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14.827" height="14.691" viewBox="0 0 14.827 14.691">
-                      <path id="Shape_5" data-name="Shape 5" d="M431.508,142.436l6.913,6.913,6.913-6.913V148.3l-6.913,6.913-6.913-6.913Z" transform="translate(-431.008 -141.229)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
-                    </svg>
-                    </button></li>
-                <li class="category_menu"><a href="">Категории</a>
-                 </li>
+                <li><a href="">Главная</a></li>
+                <li class="category_menu"><a href="">Категории</a>  </li>
                  <button class="category_menu_btn" >
                   <svg xmlns="http://www.w3.org/2000/svg" width="14.827" height="14.691" viewBox="0 0 14.827 14.691">
                   <path id="Shape_5" data-name="Shape 5" d="M431.508,142.436l6.913,6.913,6.913-6.913V148.3l-6.913,6.913-6.913-6.913Z" transform="translate(-431.008 -141.229)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
@@ -130,25 +125,13 @@
               </div>
             </div>
             <div class="logo_part">
-          <img src="img/meatLogo.png" alt="logo">
-          <img src="img/vip.png" alt="">
+          <a href="index.html"><img src="img/meatLogo.png" alt="logo"></a>
+          <p class="logo_name">Vip food</p>
       </div>
       <div>
           <ul>
-              <li><a href="">Акции</a>
-                  <button>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14.827" height="14.691" viewBox="0 0 14.827 14.691">
-                      <path id="Shape_5" data-name="Shape 5" d="M431.508,142.436l6.913,6.913,6.913-6.913V148.3l-6.913,6.913-6.913-6.913Z" transform="translate(-431.008 -141.229)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
-                    </svg>
-                    </button>
-                  </li>
-             
-              <li><a href="">О нас</a>
-                  <button>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="14.827" height="14.691" viewBox="0 0 14.827 14.691">
-                      <path id="Shape_5" data-name="Shape 5" d="M431.508,142.436l6.913,6.913,6.913-6.913V148.3l-6.913,6.913-6.913-6.913Z" transform="translate(-431.008 -141.229)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
-                    </svg>
-                    </button></li>
+              <li><a href="">Акции</a> </li>
+              <li><a href="">О нас</a></li>
               <a href="" class="social_media"><i class="fab fa-facebook"></i> </a>
               <a href="" class="social_media"><i class="fab fa-instagram"></i></a>
           </ul>
@@ -167,7 +150,7 @@
   </header>
       <main>
           <section class="container">
-            <div class="pagination_first">
+            <div class="pagination_first" id="mob_pagnation">
               <a href="">1</a>
               <a href="">2</a>
               <a href="">3</a>
@@ -617,7 +600,7 @@
                   </div>
                   </div>
               </div>
-              <div class="pagination_first bottom_part">
+              <div class="pagination_first bottom_part" id="mob_pagnation">
                 <a href="">1</a>
                 <a href="">2</a>
                 <a href="">3</a>
