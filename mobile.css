@@ -8,7 +8,7 @@
      color:black;
    }
    .search_btn{
-       height:15.5px!important;
+       
        display:flex;
      
    }
@@ -288,10 +288,11 @@ font-size: 30px!important;
    }
    .meat_food_img{
      max-width:50%!important;
-     max-height: 350px!important;
+     max-height: 150px!important;
    }
    .company__description_first p{
  margin: 0!important;
+ line-height:21px!important;
    }
    .about_us__header h2{
    font-size: 15px!important;
@@ -399,7 +400,7 @@ font-size: 30px!important;
     }
 }
 
-@media screen and (min-width:520px) and (max-width:800px){
+@media screen and (min-width:570px) and (max-width:800px){
 
     .goods_item_content{
         gap: 5px!important;
@@ -408,7 +409,7 @@ font-size: 30px!important;
         padding: 25px 20px 25px 10px!important;
     }
     .category_second__item{
-        grid-template-columns: repeat(2,minmax(50%,90%))!important;
+        grid-template-columns: repeat(2,minmax(40%,100%))!important;
         margin-top: 40px;
         gap: 60px!important;
     }
@@ -446,7 +447,7 @@ font-size: 30px!important;
     }
     
     .category_second__item{
-        grid-template-columns: repeat(2,minmax(50%,90%))!important;
+        grid-template-columns: repeat(2,minmax(40%,100%))!important;
         margin-top: 40px;
         gap: 60px!important;
     }
