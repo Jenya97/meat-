@@ -11,7 +11,7 @@
 }
 @font-face {
     font-family: gothic;
-    src: url(font/Century\ Gothic.ttf);
+    src: url(font/CenturyGothic.ttf);
 }
 body{
     font-family: regArial;
@@ -20,7 +20,6 @@ body{
     background-image: url(img/Background.jpg) ;
     background-repeat: no-repeat;
   background-size: cover;
-
  
 }
 ul li{
@@ -191,6 +190,14 @@ z-index: 2;
     text-align: end;
     font-family: gothic;
     font-weight: 600;
+}
+.beef a:hover,.company a:hover,.in_basket:hover{
+    background:#FFCC00;
+    color:white;
+    cursor:pointer;
+}
+.slick-arrow i:hover{
+     cursor:pointer;
 }
 .beef a,.company a{
     border:2px solid #FFCC00;
@@ -616,7 +623,21 @@ gap: 20px;
        -ms-flex-direction: column;
            flex-direction: column;
 }
-.goods_item_header h3{
+.goods_in_basket:hover{
+    background:white;
+    color:#FFCC00;
+    outline:1px solid #FFCC00;
+    cursor:pointer;
+}
+.navigator_header ul li a:hover{
+    color:#FFCC00;
+}
+.social_media i:hover,.enter_system:hover,.registration_system:hover{
+    color:#FFCC00;
+    cursor:pointer;
+}
+.goods_item_header a{
+    display:inline-block;
     padding: 5px 20px;
     background: #FFCC00;
     width: -webkit-fit-content;
@@ -629,6 +650,8 @@ gap: 20px;
     letter-spacing: 2px;
     border-radius: 35px;
     margin: 0;
+    font-weight:bold;
+    color:black;
 }
 .goods_item_price{
     font-size: 17px;
@@ -686,8 +709,9 @@ margin-right: 5px;
 padding-top: 5px;
 color: black;
 }
-.pagination_first:hover{
+.pagination_first a:hover{
     background: #FFFFFF; 
+    color:#FFCC00;
 }
 .bottom_part{
     margin-bottom: 200px;
@@ -699,6 +723,8 @@ color: black;
     border-radius: 15px;
    margin: auto;
 }
+
+
 .enter_content,.registr_content{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -716,11 +742,12 @@ display: block;
 margin-bottom: 25px;
 background: #FFFFFF;
 border-radius: 35px;
--webkit-box-shadow: 5px 10px 20px 2px grey;
-        box-shadow: 5px 10px 20px 2px grey;
-border: none;
+-webkit-box-shadow: 5px 10px 20px 2px grey!important;
+        box-shadow: 5px 10px 20px 2px grey!important;
 outline: none;
+border:none;
 font-size: 20px;
+ background-clip: padding-box;
 }
 .enter_content_form label{
     display: -webkit-box;
@@ -817,4 +844,24 @@ font-size: 20px;
     border: none;
     background: none;
     outline: none;
+}
+.category_meat__item_submenu {
+    background: white;
+  
+}
+.category_meat__item{
+    flex-direction: column;
+    position: relative;
+}
+.category_meat__item__main{
+    display: flex;
+}
+.category_meat__item_submenu p{
+    line-height: 2;
+}
+.category_meat__item p{
+    width: 100%;
+}
+.category_meat__item{
+    padding: 10px 20px 5px 20px;
 }
