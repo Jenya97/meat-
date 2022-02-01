@@ -398,4 +398,58 @@
     .goods_item_price{
         letter-spacing: 1px!important;
     }
+   
+}
+@media screen and (min-width:1025px) and (max-width:1400px){
+    .product__title{
+        font-size: 20px!important;
+    }
+    .product_description{
+        width: 100%!important;
+        font-size: 9px!important;
+        line-height: 15px!important;
+    }
+    .product__meat__price{
+        font-size: 11px;
+    }
+    .product__price{
+        width: 3%!important;
+        font-size: 11px!important;
+        border:2px solid #FFCC00!important;
+    }
+    .product_count button{
+        font-size: 19px!important;
+    }
+    .product__add__basket{ 
+        width: 60%!important;
+        font-size:12px!important;
+        height: 35px!important;
+    }
+}
+
+@media screen and (min-width:1401px) and (max-width:1800px){
+    .product__title{
+        font-size: 20px!important;
+    }
+    .product_description{
+        width: 100%!important;
+        font-size: 13px!important;
+        line-height: 18px!important;
+    }
+    .product__meat__price{
+        font-size: 14px;
+    }
+    .product__price{
+        width: 3%!important;
+        font-size: 14px!important;
+        border:2px solid #FFCC00!important;
+    }
+    .product_count button{
+        font-size: 19px!important;
+    }
+    .product__add__basket{ 
+        width: 50%!important;
+        font-size:12px!important;
+        height: 35px!important;
+    }
 }

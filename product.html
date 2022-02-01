@@ -149,15 +149,14 @@
            <p class="product_description">
                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nihil accusamus perferendis asperiores placeat officia neque eos, esse nemo modi et, nostrum necessitatibus voluptas temporibus debitis blanditiis. Voluptatem, quibusdam nemo.
            </p>
-          <p class="product__meat__price">Цена <span>1000 р.</span></p> 
+          <p class="product__meat__price">Цена <span class="product__meat__price__span">1000</span>р.</p> 
           </div>
            <div class="product_count">
-             <button>-</button>
-             <input type="text" value="0" class="product__price">
-             <button>+</button>
-            
+             <button class="product_count_minus">-</button>
+             <input type="text" class="product__price" readonly>
+             <button class="product__count__plus">+</button>
            </div>
-           <button>Добавить в корзину</button>
+           <button class="product__add__basket">Добавить в корзину</button>
             </div>
         </div>
         </section>
@@ -191,5 +190,22 @@
       <script src="header.js"></script>
       <script src="enter.js"></script>
       <script src="registr.js"></script>
+      <script>
+        let val=0;
+    let btn_min=document.querySelector('.product_count_minus');
+    let btn_plus=document.querySelector('.product__count__plus');
+    let inp_price=document.querySelector('.product__price');
+    inp_price.value=val;
+    btn_min.addEventListener('click',()=>{
+      if(val>0){
+        val--
+      }
+      inp_price.value=val;
+    })
+    btn_plus.addEventListener('click',()=>{
+      val++
+      inp_price.value=val;
+    })
+      </script>
     </body>
   </html>

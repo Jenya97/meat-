@@ -83,15 +83,13 @@
         position: relative;
         left: -35px;
         font-size:9px!important;
-        padding: 1px 5px 12px!important;
+        padding: 1px 5px 11px!important;
     }
     .first_meat_sec{
         justify-content:unset;
         width:unset!important;
 }
-.beef{
-   
-}
+
     .best_offer_items img{
      width: 120px!important;
      height: 80px!important;
@@ -191,7 +189,49 @@
     font-size: 15px!important;
     }
     .vip_header{
-font-size: 30px!important;
+        font-size: 30px!important;
+    }
+    .product_meat{
+        flex-direction: column;
+        padding: 35px!important;
+        gap: 35px!important;
+      
+    }
+    .product_des{
+       text-align: center;
+    }
+    .product_count{
+        justify-content: center;
+    }
+    .product_count button{
+        width: unset!important;
+        font-size: 22px!important;
+    }
+    .product__add__basket{
+        margin: auto;
+        width: 70%!important;
+        font-size: 10px!important;
+        height: 35px!important;
+    }
+    .product__price{
+        width: 7%!important;
+        font-size: 11px!important;
+        border:2px solid #FFCC00!important;
+    }
+    .product__title{
+        font-size:20px!important;
+    }
+    .product_description{
+        width: 100%!important;
+        font-size: 9px!important;
+        letter-spacing: 1px;
+        text-align: justify;
+    }
+    .product__meat__price{
+        font-size: 10px!important;
+    }
+    .meat_product{
+        width: 70%!important;
     }
     .company p{
         font-size: 10px!important;
