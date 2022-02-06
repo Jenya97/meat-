@@ -94,7 +94,14 @@
     width: 60px;
     margin-left: 7px;
 }
+.submenu_item{
+    margin-left: -8%;
 }
+.second_submenu{
+    left: 44%;
+}
+}
+
 @media screen and (min-width:1457px) and (max-width:1539px){
     .navigator_header ul li a{
         font-size: 22px;
@@ -161,6 +168,12 @@
 }
 .count_input__label{
     font-size: 15px;
+}
+.submenu_item{
+    margin-left: -16%;
+}
+.second_submenu{
+    left: 38%;
 }
 }
 @media screen and (min-width:1285px) and (max-width:1456px){
@@ -245,6 +258,12 @@
 .count_input{
     width: 15px;
     height: 15px;
+}
+.submenu_item{
+    margin-left: -21%;
+}
+.second_submenu{
+    left: 28%;
 }
 }
 
@@ -387,7 +406,14 @@
     width: 19px;
     height: 19px;
 }
+.submenu_item{
+    margin-left: -43%;
 }
+.second_submenu{
+    left: 15%;
+}
+}
+
 @media screen and (min-width:1024px) and (max-width:1150px){
     .goods_item_content img {
         width: 60px;
@@ -886,6 +912,28 @@
 .about_us__header h2,.about_us__header h3{
     font-size: 15px;
 }
+.submenu {
+    top: unset;
+    right: unset;
+    left: 39px;
+    width: 50%;
+}
+.submenu_item li a, .second_submenu li a{
+    font-size: 6px!important;
+}
+.submenu_item{
+    padding: 2px!important;
+}
+.second_submenu{
+    padding:5px 2px!important;
+    left: 97%;
+    width: 50%;
+    top: 19%;
+}
+.right_menu svg{
+    width: 6px;
+    height: 6px;
+}
 }
 @media screen and (min-width:400px) and (max-width:549px){
     .goods_item_content{
@@ -1003,6 +1051,28 @@
     .goods_in_basket svg{
         width: 11px;
         height: 11px;
+    }
+    .submenu {
+        top: unset;
+        right: unset;
+        left:55px;
+        width: 50%;
+    }
+    .submenu_item li a, .second_submenu li a{
+        font-size: 8px!important;
+    }
+    .submenu_item{
+        padding: 4px!important;
+    }
+    .second_submenu{
+        padding:5px 2px!important;
+        left:94%;
+        width: 50%;
+        top: 19%;
+    }
+    .right_menu svg{
+        width: 6px;
+        height: 6px;
     }
 }
 @media screen and (min-width:701px) and (max-width:1024px){
@@ -1166,6 +1236,20 @@
     }
     .category_second__item{
         gap: 24px;
+    }
+    .submenu {
+        left:95px;
+    }
+    .submenu_item li a, .second_submenu li a{
+        font-size: 10px!important;
+    }
+    .second_submenu {
+        left: 65%;
+        top: 23%;
+    }
+    .right_menu svg{
+        width: 6px;
+        height: 6px;
     }
 }
 @media screen and (min-width:795px) and (max-width:1024px){

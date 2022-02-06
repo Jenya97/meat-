@@ -819,7 +819,7 @@ font-size: 20px;
    margin-top: unset!important;
 }
 .submenu_item li a{
-    font-size: 25px!important;
+    font-size: 25px;
 }
 .second_submenu{
     display: -webkit-box;
@@ -829,9 +829,10 @@ font-size: 20px;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 20px!important;
-    position: relative!important;
-    top: 62px;
+    padding: 5px 25px!important;
+    position: absolute;
+    top: 33%;
+    left: 51%;
     background: #dab10d;
     height: -webkit-fit-content;
     height: -moz-fit-content;
@@ -839,7 +840,7 @@ font-size: 20px;
     margin-top: unset!important;
 }
 .second_submenu li a{
-    font-size: 25px!important;
+    font-size: 25px;
 }
 .submenu{
     width:100%;
