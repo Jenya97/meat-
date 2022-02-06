@@ -8,9 +8,7 @@
      color:black;
    }
    .search_btn{
-       
        display:flex;
-     
    }
     .header_part{
         display: none;
@@ -88,8 +86,10 @@
     .first_meat_sec{
         justify-content:unset;
         width:unset!important;
-}
-
+    }
+    .about__company{
+        width: unset;
+    }
     .best_offer_items img{
      width: 120px!important;
      height: 80px!important;

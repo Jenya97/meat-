@@ -426,7 +426,7 @@ margin: 15px auto;
    margin-top: 190px;
    border-radius: 15px;
    padding: 25px 25px 0 25px;
-   width: 50%;
+   width: 75%;
    margin:190px auto 0 auto ;
 }
 .contact__and__menu{
@@ -996,3 +996,37 @@ font-size: 20px;
 	width: 45px;
 }
 
+.basket_header{
+    font-size:40px;
+    color: white;
+    letter-spacing: 3px;
+}
+.basket_section{
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    
+}
+.empty_basket_p{
+    font-size: 26px;
+    color: white;
+}
+.basket_btn{
+    display: inline-block;
+    width: 10%;
+    height:20px;
+    border:2px solid #FFCC00;
+    background: none;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 95%;
+    color: #FFCC00;
+    padding: 20px;
+}
+.basket_btn:hover{
+    background: #FFCC00;
+    color: #FFFFFF;
+}
