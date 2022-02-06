@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="media.css">
+    <!-- <link rel="stylesheet" href="media.css"> -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>Document</title>
     <style>
         
@@ -79,6 +79,7 @@
          <input type="text">
         <button class="search_btn">Поиск</button>
        </div>
+      </div>
      </nav>
       </div>
         <div class="header_part">
@@ -121,13 +122,17 @@
           <a href="index.html"><img src="img/meatLogo.png" alt="logo"></a>
           <p class="logo_name">Vip food</p>
       </div>
-      <div>
+      <div class="header__sec__items">
           <ul>
               <li><a href="">Акции</a> </li>
               <li><a href="">О нас</a></li>
               <a href="" class="social_media"><i class="fab fa-facebook"></i> </a>
               <a href="" class="social_media"><i class="fab fa-instagram"></i></a>
+              <div class="toggle-container">
+                <input type="checkbox" id="switch" name="theme" class="tog_switch" /><label for="switch">Toggle</label>
+            </div>
           </ul>
+          <div class="search__basket"> 
           <div class="search">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
                   <image id="Layer_8" data-name="Layer 8" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAklJREFUSEutldmrT1EUx12zZCgkb1ehJLwgkRAP4gElIfIroZtrKMN/4EUyl7GUuTwYHgxFIiVxZXxAyZMhoZSZ+Hy0fnXu6bd/55Tfqk+7vffa+7vPWnuv09Shtg1meBIMhY7wFG7Ay4R/crgpNzOC/nqYCQNzc2/oX4Dt8LisUFZgSSzuF4u/0b6HP+BYjxh3bCMcLiNSFViA8xHoAm9hD1yMkCjQDLOhBQbAT6jAiSIRBYbATTAkj2AxPEwsHBUHGU37DibC83oiChjTdfABpsH9glONZP4aGLbdsKZIwBsyDHbB2qJPjvkttObhBYyNw9Vc6heYzK4wC4x7GZuK01X4BePhXmqRAibxM0yAVOzz64czcAd6wgy4XCTwFQcfVluZ4+NjHm6DV3d6fE0yRJ+Y6QUL4VRJgTn4nYEvMA6e1PuCWxHHs7RzSwqcxm9ehGkyrRFIfoE3Zwf8hgocKxDxUR4Ha5RlZVs9f5PcB67AGDBcCh4NwezaznSWwlboC9fB+HuTklYtFSbtPDSHp4Ln4Fn0fe2GxOtZNfPlQ7sLP1IK2WKniI9tSr0TMXcJHsCmOL1Fb3VKJF+uu+HobVoE3vX+IWYFtU55aukdX2eoNAvlSvDRtrO8QHZyEB030OcjvM5MmmDzcQDMjXYSKtAuXPUE8oep1V/O4D5QUPNyLAPL+T/7XwH3sJp6VTvFngdpV1VFGiHgvitgJ3QPkUO0rfC9UQLua2j2gn9FzcRvbqSAm1ZgP1j+X0FLowUU8b+9AeZD219OKnKN2zNVUAAAAABJRU5ErkJggg=="/>
@@ -135,8 +140,11 @@
                 <input type="text">
                 <button class="search_btn">Поиск</button>
             </div>
+            <div><a href="" class="basket"><i class="fas fa-shopping-basket"></i></a></div>
+            </div>
           </div>
         </nav>  
+       
   </div>
     </section>
     

@@ -569,12 +569,12 @@
     .header__sec__items{
         margin-left: -23px;
     } 
-    header label{
+   .toggle-container label{
     width: 27px;
     height: 15px;
     margin-top: 4px;
     }
-    header label:after{
+    .toggle-container label:after{
     width: 10px;
     height: 9px;
     }
@@ -667,6 +667,110 @@
         left: 24px;
         top: -5px;
     }
+    
+    .category_meat__item p{
+        font-size: 6px;
+    }
+    .category_meat__item button svg{
+        width: 5px;
+        height: 5px;
+    }
+    .category_meat__item{
+        height: 5px;
+        width: 42px;
+        padding:5px 17px 5px 13px;
+    }
+    .category_meat__item__main{
+        position: relative;
+        top: -6px;
+    }
+  /*  */
+    .goods_item_content img {
+    width: 30px;
+    height: 30px;
+}
+.goods_item_header a{
+    font-size: 7px;
+    padding: 5px;
+}
+.goods_item_price{
+    font-size: 7px;
+}
+.count_input{
+    width: 7px;
+    height: 7px;
+    font-size: 10px;
+}
+.count_input__label{
+    font-size: 7px;
+}
+.goods_in_basket{
+    font-size: 7px;
+    padding: 5px;
+}
+.goods_in_basket svg{
+    width: 7px;
+    height: 7px;
+}
+.category{
+    width: 100%;
+}
+.goods_item_content{
+    flex-direction: column;
+}
+.category_second__item{
+  grid-template-columns: repeat(2,minmax(70px, 150px));  
+}
+.registr_user{
+    width: unset!important;
+    height: 140px;
+    padding:2px 100px 90px!important;
+}
+.enter_user{
+ width: unset;
+ height: 140px;
+ padding:2px 100px 0;
+}
+.registr_user{
+    width: unset;
+    height: 140px;
+    padding:2px 100px 50px;
+}
+.vip__food__enter__header{
+    font-size: 12px;
+    margin: 0 0 2px  0px;
+}
+.enter_content_form label{
+    font-size:7px;
+    -ms-flex-pack: distribute;
+    justify-content: space-between;
+    height: 25px;
+   
+}
+.reg_btn{
+    margin:5px auto;
+    float: unset!important;
+    font-size: 12px!important;
+    height: 20px!important;
+}
+.enter_content_form label:first-child{
+ margin-top: 12px;
+ 
+}
+.enter_content_form input{
+ width: 150px;
+ height: 10px;
+ font-size: 10px!important;
+
+}
+
+.enter_content_form{
+    left: unset!important;
+}
+.enter_content svg,.registr_content svg{
+    width: 50px;
+    height: 15px;
+}
 }
 @media screen and (min-width:1600px) and (max-width:1920px){
     .basket{
