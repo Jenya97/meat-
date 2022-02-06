@@ -984,7 +984,7 @@ font-size: 20px;
 }
 
 .toggle-container input:checked + label {
-	background: #340505;
+	background: #FFFFFF;
 }
 
 .toggle-container input:checked + label:after {
