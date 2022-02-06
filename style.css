@@ -103,7 +103,6 @@ z-index: 2;
     background: url(img/unnamed.jpg);
     width: 90%;
     border-radius: 15px;
-    padding-top: 20px;
     margin: 40px auto;
     position: relative;
 }
@@ -160,10 +159,7 @@ z-index: 2;
     height: 100px;
 }
 .first_meat_sec{
-    width:97%;
-    margin:auto;
-    padding-bottom: 30px;
-    padding-top: 15px;
+padding: 15px;
     
 }
 .beef{
