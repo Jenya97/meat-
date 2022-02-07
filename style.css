@@ -450,8 +450,8 @@ line-height: 28px;
 opacity: 0.9;
 }
 .tel__mail{
--ms-flex-item-align: end;
-    align-self: flex-end;
+    -ms-flex-item-align: center;
+    align-self: center;
 }
 .tel__mail p{
     line-height: 0px;
